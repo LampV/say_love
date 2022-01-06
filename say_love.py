@@ -3,18 +3,12 @@
 """
 @author: Jiawei Wu
 @create time: 2022-01-02 12:06
-@edit time: 2022-01-02 12:09
+@edit time: 2022-01-06 21:24
 @file: /say_love/say_love.py
 @desc: 
 """
+from javis import Javis
 
-# 循环输入输出
-while True:
-    # 输入
-    msg = input("请输入信息：\n")
-    # 输出
-    if "爱你" in msg:
-        print("我也爱你，荔荔！")
-    else:
-        print("I Love You Lily!")
-
+if __name__ == '__main__':
+    javis = Javis()
+    javis.run()
