@@ -3,7 +3,7 @@
 """
 @author: Jiawei Wu
 @create time: 2022-01-03 23:46
-@edit time: 2022-01-05 11:31
+@edit time: 2022-01-06 21:26
 @file: /say_love/baidu_speech.py
 @desc: 
 """
@@ -13,8 +13,8 @@ from urllib.error import URLError
 from urllib.parse import urlencode
 from urllib.parse import quote_plus
 import json
-API_KEY = "eZYUIeqicy1Qp5rWdfuftbpj"
-SECRET_KEY = "Qni87qzILUciyXT9Q1MErgGth6yZKFnZ"
+API_KEY = ""
+SECRET_KEY = ""
 
 
 TTS_URL = 'http://tsn.baidu.com/text2audio'
@@ -110,4 +110,4 @@ if __name__ == '__main__':
     TEXT = "你好，这里是为荔荔编写的智能小黄鸭"
 
     FNAME = "resources/demo.wav"
-    tts_and_save(TEXT, FNAME, aue=6, per=5118, spd=2) 
+    tts_and_save(TEXT, FNAME, aue=6, per=5118, spd=5) 
