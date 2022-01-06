@@ -3,7 +3,7 @@
 """
 @author: Jiawei Wu
 @create time: 2022-01-04 11:13
-@edit time: 2022-01-05 11:28
+@edit time: 2022-01-06 12:07
 @file: /say_love/recoder.py
 @desc: 
 """
@@ -25,7 +25,8 @@ class Recoder:
     hello_voice = pygame.mixer.Sound('resources/hello.wav')
     heart_voice = pygame.mixer.Sound('resources/heart.wav')
     poem_voice = pygame.mixer.Sound('resources/poem.wav')
-    love_voice = pygame.mixer.Sound('resources/love-demo.wav')
+    # love_voice = pygame.mixer.Sound('resources/love-demo.wav')
+    love_voice = pygame.mixer.Sound('resources/love.wav')
     
 
     def __init__(self, ticks, speaker, add_entity_func):
